@@ -5,18 +5,31 @@
     <title>Каталог</title>
   </head>
   <body>
+
 		<header class="main-header">
-			<nav class="header-user-navigation">
+
+			<nav class="main-header-user-navigation">
 				<a class="main-header-logo" href="index.html">
 				  <img src="img/logo-technomart.png" width="108" height="18" alt="Логотип «Техномаркет»">
 			  </a>
-			  <div class="main-header-search">Поиск:
-        <!--Здесь будет форма поиска-->
-			  </div>
-			  <div class="main-header-bookmarks"><a href="bookmarks.html">Закладки: 0</a></div>
-			  <div class="cart">Корзина: 10</div>
-			  <div class="order"><a class="button" href="order.html">Оформить заказ</a></div>
-			</nav>
+			  <form action="https://echo.htmlacademy.ru" method="get">
+			  	<p>
+			  		<label class="visually-hidden" for="form-search">Поиск:</label>
+			  	  <input class="main-header-search" id="form-search" type="search" name="search" placeholder="Поиск:">
+			  	</p>
+        </form>
+        <ul class="user-navigation">
+			    <li>
+			    	<a class="main-header-bookmarks" href="bookmarks.html">Закладки: 0</a>
+			    </li>
+			    <li>
+			      <a class="main-header-cart" href="cart.html">Корзина: 10</a>
+			    </li>
+			    <li>
+			      <a class="main-header-checkout" href="checkout.html">Оформить заказ</a>
+			    </li>
+			  </ul>
+		  </nav>
 			
 			<p>Интернет-магазин строительных материалов и инструментов для ремонта</p> 
 			<p class="phone">+7(812)555-05-55</p>
