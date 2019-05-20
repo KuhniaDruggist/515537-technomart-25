@@ -270,10 +270,25 @@
 			</section>		
 		</footer>
 
-		<!--Всплывающаяя форма-->
-		<section class="write-us">
-			<!--Здесь будет форма-->
-			<a class="button" href="#">Отправить</a>
+		<!--попапы(всплывающие окна)-->
+		<section class="modal write-us">
+			<h3 class="visually-hidden">Заблудились? Напишите нам!</h3>
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<p>
+					<label for="form-write-us-name">Ваше имя:</label>
+					<input class="write-us-name" id="form-write-us-name" type="text" name="name" placeholder="Имя Фамилия">
+				</p>
+				<p>
+					<label for="form-write-us-email">Ваш e-mail:</label>
+					<input class="write-us-email" id="form-write-us-email" type="email" name="email" placeholder="email@placeholder.com">
+				</p>
+				<p>
+					<label for="form-write-us-text">Текст письма:</label>
+					<textarea class="write-us-text" id="form-write-us-text" name="text" placeholder="В свободной форме"></textarea>
+				</p>
+				<button class="button" type="submit">Отправить</button>
+			</form>
+			<button class="modal-close" type="button">Закрыть</button>
 		</section>    
   </body>
 </html>
