@@ -3,37 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
 		<header class="main-header">
 
-			<nav class="main-header-user-navigation">
-				<a class="main-header-logo" href="index.html">
+			<nav class="user-navigation">
+				<a class="header-logo" href="index.html">
 				  <img src="img/logo-technomart.png" width="108" height="18" alt="Логотип «Техномаркет»">
 			  </a>
 			  <form action="https://echo.htmlacademy.ru" method="get">
 			  	<p>
 			  		<label class="visually-hidden" for="form-search">Поиск:</label>
-			  	  <input class="main-header-search" id="form-search" type="search" name="search" placeholder="Поиск:">
+			  	  <input class="main-header-search" id="form-search" type="search" name="search">
 			  	</p>
         </form>
-        <ul class="user-navigation">
+        <ul class="user-navigation-list">
 			    <li>
-			    	<a class="main-header-bookmarks" href="bookmarks.html">Закладки: 0</a>
+			    	<a class="navigation-bookmarks" href="bookmarks.html">Закладки: 0</a>
 			    </li>
 			    <li>
-			      <a class="main-header-cart" href="cart.html">Корзина: 10</a>
+			      <a class="navigation-cart" href="cart.html">Корзина: 10</a>
 			    </li>
 			    <li>
-			      <a class="main-header-checkout" href="checkout.html">Оформить заказ</a>
+			      <a class="navigation-checkout" href="checkout.html">Оформить заказ</a>
 			    </li>
 			  </ul>
 		  </nav>
 			
 			<p>Интернет-магазин строительных материалов и инструментов для ремонта</p> 
-			<p class="phone">+7(812)555-05-55</p>
-			<p class="adres">г.Санкт-Петербург ул.Б.Конюшенная, д.19/8</p>
+			<p class="header-phone">+7(812)555-05-55</p>
+			<p class="header-adres">г.Санкт-Петербург ул.Б.Конюшенная, д.19/8</p>
 			
 			<section class="user-account">
 			  <a class="my-profile" href="profile.html" aria-label="Мой профиль"><b>Равшан Джамшутович</b></a>
