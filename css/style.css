@@ -210,6 +210,52 @@ a {
   background-color: #ee3643;
   border: none; 
 }
+
+.button:hover,
+.button:focus {
+	background-color: #ca2c37;
+}
+.button:active {
+	background-color: #ba2732;
+}
+
+.button-buy {
+	font-family: Cuprum, Aria, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	background-color: #63a63e;
+}
+
+.button-buy:hover,
+.button-buy:focus {
+	background-color: #5fbb2d;
+}
+
+.button-buy:active {
+	background-color: #518534;
+}
+
+.button-bookmarks {
+	font-family: Cuprum, Aria, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #32425c;
+	background-color: #ffffff;
+	border: 3px solid #63a63e;
+}
+
+.button-bookmarks:hover,
+.button-bookmarks:focus {
+	background-color: #ffffff;
+	border-color: #32425c;
+}
+
+.button-bookmarks:active {
+	border-color: rgba(50, 66, 92, 0.3);
+	color: rgba(50, 66, 92, 0.3);
+}
 /*-------------------------------------------------------------------------*/
 .main-footer {
 	background-color: #32425c;
