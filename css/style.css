@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 
-	font-family: "PT Sans", Arial, sans-serif;
+	font-family: Cuprum, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
@@ -13,4 +13,64 @@ body {
 a {
 	text-decoration: none;
 }
+
+.header-logo {
+	background-color: #ee3643;
+  box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.24);	
+}
+
+.user-navigation {
+	font-size: 17px;
+	line-height: 18px;
+	color: #ffffff;
+
+	background-color: #293449;
+}
+
+.user-navigation input {
+	border: none;
+	background-color: #293449;
+}
+.user-navigation p:hover,
+.main-header-search:hover,
+.user-navigation p:focus,
+.main-header-search:focus {
+	background-color: #212a3a;
+}
+
+.user-navigation-list {
+	list-style: none;
+}
+
+.user-navigation-list a {
+	color: #ffffff;
+}
+
+.navigation-bookmarks:hover,
+.navigation-cart:hover,
+.navigation-bookmarks:focus,
+.navigation-cart:focus {
+	background-color: #212a3a;
+}
+
+.navigation-bookmarks:active,
+.navigation-cart:active {
+	background-color: #161d29;
+}
+
+.navigation-checkout {
+	background-color: #63a63e;
+}
+
+.navigation-checkout:hover,
+.navigation-checkout:focus {
+	background-color: #5fbb2d;
+} 
+
+.navigation-checkout:active {
+	background-color: #518534;
+} 
+
+
+
 
