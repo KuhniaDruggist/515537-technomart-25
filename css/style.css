@@ -4,7 +4,7 @@ body {
 	font-family: Cuprum, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
-	font-weight: 400;
+	c
 	color: #000000;
 
 	background-color: #ffffff;	
@@ -55,6 +55,7 @@ a {
 
 .navigation-bookmarks:active,
 .navigation-cart:active {
+	color: rgba(255, 255, 255, 0.6);
 	background-color: #161d29;
 }
 
@@ -68,8 +69,65 @@ a {
 } 
 
 .navigation-checkout:active {
+	color: rgba(255, 255, 255, 0.5);
 	background-color: #518534;
 } 
+
+.main-header h1 {
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	color: #ee3643;
+
+}
+
+.header-phone {
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+}
+
+.header-adres {
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+}
+
+.login {
+	list-style: none;
+}
+
+.login a {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.login a:hover,
+.login a:focus {
+	color: #ee3643;
+}
+
+.login a:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation {
+	background-color: #32425c;
+/*тень*/
+}
+
+.site-navigation {
+	list-style: none;
+}
+.site-navigation a {
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;
+} 
+
+
+
 
 
 
