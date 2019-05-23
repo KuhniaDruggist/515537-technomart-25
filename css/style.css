@@ -14,6 +14,10 @@ a {
 	text-decoration: none;
 }
 
+.main-header {
+		background-color: #f2f6f8;
+}
+
 .header-logo {
 	background-color: #ee3643;
   box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.24);	
@@ -71,20 +75,26 @@ a {
 .navigation-checkout:active {
 	color: rgba(255, 255, 255, 0.5);
 	background-color: #518534;
+}
+
+.index-columns {
+	background-color: #f2f6f8;
 } 
 
 .main-header h1 {
 	font-size: 16px;
 	line-height: 23px;
+	font-weight: 400;
 	font-style: italic;
 	color: #ee3643;
-
 }
 
 .header-phone {
+  border: 3px solid #ffffff; 
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
+
 }
 
 .header-adres {
@@ -101,6 +111,7 @@ a {
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
+	background-color: #ffffff;
 }
 
 .login a:hover,
@@ -294,7 +305,43 @@ a {
 .modal{
 	display:none;
 }
+/*--------------------------------------------------------------------------------*/
+.headline {
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	color: #ee3643;
+}
 
+.my-profile {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.my-profile:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.user-account-navigation {
+	list-style: none;
+}
+
+.user-account-navigation a {
+	font-size: 16px;
+	line-height: 18px;
+	color: #32425c;
+	text-decoration: underline;
+}
+
+.user-account-navigation a:hover,
+.user-account-navigation a:focus {
+	color:#ee3643;
+}
+
+.user-account-navigation a:active {
+	color: rgba(50, 66, 92, 0.3);
+}
 
 
 
