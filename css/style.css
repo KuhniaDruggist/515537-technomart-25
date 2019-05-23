@@ -124,7 +124,38 @@ a {
 	font-size: 17px;
 	line-height: 17px;
 	color: #ffffff;
-} 
+}
+
+/*------------------------------------------------------------------------*/
+.catalog-list {
+	list-style: none;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.catalog-item {
+	text-align: center;
+}
+
+.catalog-item h3 {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.old-price {
+	font-size: 17px;
+	color: #a9a9a9;
+	text-decoration: line-through;
+}
+
+
+
+
+
 
 
 
