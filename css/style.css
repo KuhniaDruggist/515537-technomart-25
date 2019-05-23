@@ -317,6 +317,7 @@ a {
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
+	background-color: #ffffff;
 }
 
 .my-profile:active {
@@ -342,7 +343,63 @@ a {
 .user-account-navigation a:active {
 	color: rgba(50, 66, 92, 0.3);
 }
+/*-------------------------------------------------------------------------------*/
+.breadcrumbs {
+	list-style: none;
+}
 
+.breadcrumbs li {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.container h1 {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #32425c;
+	background-color: #f2f6f8;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+	font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.filter-option {
+  list-style: none;
+  line-height: 18px;
+}
+.filter-option label {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.filter-input:hover,
+.filter-input:focus {
+  color: #b5b5b5;
+}
+
+.filter-input:disabled + label {
+  color: rgba(0, 0, 0, 0.4);
 
 
 
