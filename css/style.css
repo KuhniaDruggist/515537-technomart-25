@@ -1,3 +1,7 @@
+html {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 
@@ -125,7 +129,7 @@ a {
 
 .main-navigation {
 	background-color: #32425c;
-/*тень*/
+  box-shadow: inset 0px -5px 0px 0px rgb(41, 52, 73);
 }
 
 .site-navigation {
