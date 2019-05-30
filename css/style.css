@@ -85,12 +85,19 @@ a {
 	background-color: #f2f6f8;
 } 
 
-.main-header h1 {
+.container h1 {
+	margin: 0;
+	padding: 0;
+
 	font-size: 16px;
 	line-height: 23px;
 	font-weight: 400;
 	font-style: italic;
 	color: #ee3643;
+}
+
+.contacts {
+	font-style: normal;
 }
 
 .header-phone {
@@ -411,7 +418,7 @@ a {
   color: #000000;
 }
 
-.container h1 {
+.inner-page h1 {
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
@@ -502,3 +509,37 @@ body > * > * > * > * > * {
 .user-navigation-wrapper .container {
   display: flex;
 }
+
+.info-wrapper {
+	display: flex;
+	margin-bottom: 45px;
+}
+
+.info-wrapper h1 {
+  width: 210px;
+  margin-left: 50px;
+}
+
+.header-phone {
+	margin: 0;
+	padding: 0;
+}
+.header-adres {
+	margin: 0;
+	padding: 0;
+}
+.login {
+	margin: 0;
+	margin-left: auto;
+	padding: 0;
+
+	list-style: none;
+}
+
+.contacts {
+	text-align: center;
+	width: 275px;
+	margin-left: 70px;
+}
+
+
