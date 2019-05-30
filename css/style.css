@@ -96,7 +96,7 @@ a {
 	color: #ee3643;
 }
 
-.contacts {
+.contacts-header {
 	font-style: normal;
 }
 
@@ -460,7 +460,7 @@ a {
 }
 /*/////////////////////////////////Сетка/////////////////////////////////////*/
 
-body > * {
+/*body > * {
 	background-color: rgba(170, 25, 241, 0.5);
 }
 body > * > * {
@@ -474,8 +474,11 @@ body > * > * > * > * {
 }
 body > * > * > * > * > * {
 	background-color: rgba(1, 251, 221, 0.5);
-}	
+}	*/
 
+.main-header {
+	padding-bottom: 60px;
+}
 
 .container {
   width: 940px;
@@ -537,7 +540,7 @@ body > * > * > * > * > * {
 	list-style: none;
 }
 
-.contacts {
+.contacts-header {
 	text-align: center;
 	width: 275px;
 	margin-left: 70px;
@@ -552,3 +555,15 @@ body > * > * > * > * > * {
 	list-style: none;
 }
 
+.about-us {
+	width: 540px;
+}
+
+.contacts {
+	width: 300px;
+	margin-left: auto;
+}
+.contacts-wrapper {
+	display:flex;
+	margin-bottom: 85px;
+}
