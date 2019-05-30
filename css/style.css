@@ -460,7 +460,7 @@ a {
 }
 /*/////////////////////////////////Сетка/////////////////////////////////////*/
 
-/*body > * {
+body > * {
 	background-color: rgba(170, 25, 241, 0.5);
 }
 body > * > * {
@@ -474,7 +474,8 @@ body > * > * > * > * {
 }
 body > * > * > * > * > * {
 	background-color: rgba(1, 251, 221, 0.5);
-}*/
+}	
+
 
 .container {
   width: 940px;
@@ -542,4 +543,12 @@ body > * > * > * > * > * {
 	margin-left: 70px;
 }
 
+.site-navigation {
+	display: flex;
+  justify-content: space-between;
+	margin: 0 50px;
+	padding: 0;
+
+	list-style: none;
+}
 
