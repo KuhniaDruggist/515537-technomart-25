@@ -450,12 +450,55 @@ a {
 
 .filter-input:disabled + label {
   color: rgba(0, 0, 0, 0.4);
+}
+/*/////////////////////////////////Сетка/////////////////////////////////////*/
 
+/*body > * {
+	background-color: rgba(170, 25, 241, 0.5);
+}
+body > * > * {
+	background-color: rgba(201, 21, 121, 0.5);
+}
+body > * > * > * {
+	background-color: rgba(110, 251, 141, 0.5);
+}
+body > * > * > * > * {
+	background-color: rgba(2, 221, 11, 0.5);
+}
+body > * > * > * > * > * {
+	background-color: rgba(1, 251, 221, 0.5);
+}*/
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 
+.header-logo {
+	box-sizing: border-box;
+	width: 220px;
+	margin-right: 45px;
+	padding: 13px 55px;
+}
 
+.user-navigation-list {
+	margin: 0;
+	margin-left: auto;
+	padding: 0;
 
+	list-style: none;
+}
 
+.user-navigation {
+	width: 100%;
+}
 
+.user-navigation-wrapper {
+	width: 100%;
+	margin-bottom: 45px;
+}
 
-
+.user-navigation-wrapper .container {
+  display: flex;
+}
