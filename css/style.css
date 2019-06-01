@@ -547,7 +547,12 @@ body > * > * > * > * > * {
 .main-header {
 	padding-bottom: 60px;
 }
-
+/*--------------------------------------------------------------------------------*/
+.about-us-contacts-wrapper {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 85px;
+}
 
 .about-us {
 	width: 540px;
@@ -555,12 +560,22 @@ body > * > * > * > * > * {
 
 .contacts {
 	width: 300px;
-	margin-left: auto;
 }
-.contacts-wrapper {
-	display:flex;
-	margin-bottom: 85px;
+
+.about-us,
+.contacts {
+	margin: 0;
+	margin-top: 80px;
+	padding: 0;
 }
+
+.about-us h2,
+.contacts h2 {
+	margin: 0;
+	padding: 0;
+}
+
+/*---------------------------------------------------------------------------------*/
 
 .main-footer-logo img {
 	margin-top: 10px;
