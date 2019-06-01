@@ -345,19 +345,19 @@ a {
 }
 
 .feedback a,
-.footer-copyright a {
+.developer a {
 	color: #ffd180;
 }
 
 .feedback a:hover,
-.footer-copyright a:hover,
+.developer a:hover,
 .feedback a:focus,
-.footer-copyright a:focus {
+.developer a:focus {
 	text-decoration: underline;
 }
 
 .feedback a:active,
-.footer-copyright a:active {
+.developer a:active {
 	text-decoration: none;
 	color: #ee3643;
 }
@@ -464,7 +464,7 @@ a {
 }
 /*/////////////////////////////////Сетка/////////////////////////////////////*/
 
-body > * {
+/*body > * {
 	background-color: rgba(170, 25, 241, 0.5);
 }
 body > * > * {
@@ -478,7 +478,7 @@ body > * > * > * > * {
 }
 body > * > * > * > * > * {
 	background-color: rgba(1, 251, 221, 0.5);
-}
+}*/
 
 .user-navigation-wrapper .container {
   display: flex;
