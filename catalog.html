@@ -12,46 +12,54 @@
 		<header class="main-header">
 
 			<nav class="user-navigation">
-				<a class="header-logo" href="index.html">
-				  <img src="img/logo-technomart.png" width="108" height="18" alt="Логотип «Техномаркет»">
-			  </a>
-			  <form action="https://echo.htmlacademy.ru" method="get">
-			  	<p>
-			  		<label class="visually-hidden" for="form-search">Поиск:</label>
-			  	  <input class="main-header-search" id="form-search" type="search" name="search">
-			  	</p>
-        </form>
-        <ul class="user-navigation-list">
-			    <li>
-			    	<a class="navigation-bookmarks" href="bookmarks.html">Закладки: 0</a>
-			    </li>
-			    <li>
-			      <a class="navigation-cart" href="cart.html">Корзина: 10</a>
-			    </li>
-			    <li>
-			      <a class="navigation-checkout" href="checkout.html">Оформить заказ</a>
-			    </li>
-			  </ul>
+        <div class="user-navigation-wrapper">
+          <div class="container">
+    				<a class="header-logo" href="index.html">
+    				  <img src="img/logo-technomart.png" width="108" height="18" alt="Логотип «Техномаркет»">
+    			  </a>
+    			  <form action="https://echo.htmlacademy.ru" method="get">
+    			  	<p>
+    			  		<label for="form-search">Поиск:</label>
+    			  	  <input class="main-header-search" id="form-search" type="search" name="search">
+    			  	</p>
+            </form>
+            <ul class="user-navigation-list">
+    			    <li>
+    			    	<a class="navigation-bookmarks" href="bookmarks.html">Закладки: 0</a>
+    			    </li>
+    			    <li>
+    			      <a class="navigation-cart" href="cart.html">Корзина: 10</a>
+    			    </li>
+    			    <li>
+    			      <a class="navigation-checkout" href="checkout.html">Оформить заказ</a>
+    			    </li>
+    			  </ul>
+          </div>
+        </div>
 		  </nav>
 			
-			<p class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</p> 
-			<p class="header-phone">+7(812)555-05-55</p>
-			<p class="header-adres">г.Санкт-Петербург ул.Б.Конюшенная, д.19/8</p>
+      <div class="info-login-wrapper container">
+			  <p class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <address class="contacts-header">  
+			    <p class="header-phone">+7(812)555-05-55</p>
+			    <p class="header-address">г.Санкт-Петербург ул.Б.Конюшенная, д.19/8</p>
+        </address>
 			
-			<section class="user-account">
-			  <a class="my-profile" href="profile.html" aria-label="Мой профиль"><b>Равшан Джамшутович</b></a>
-			  <a class="exit-profile" href="exit-profile.html" aria-label="Выйти из профиля">Выйти<a>
-			    <ul class="user-account-navigation">
-			    	<li>
-				      <a class="main-checkout" href="main-checkout.html">Мои заказы</a>
-				    </li>
-				    <li>
-				      <a class="user-cabinet" href="user-cabinet.html">Личный кабинет</a>
-				    </li>
-			    </ul>
-		  </section>
-
-			<nav class="main-navigation">
+  			<section class="user-account">
+  			  <a class="my-profile" href="profile.html" aria-label="Мой профиль"><b>Равшан Джамшутович</b></a>
+  			  <a class="exit-profile" href="exit-profile.html" aria-label="Выйти из профиля">Выйти</a>
+  			    <ul class="user-account-navigation">
+  			    	<li>
+  				      <a class="main-checkout" href="main-checkout.html">Мои заказы</a>
+  				    </li>
+  				    <li>
+  				      <a class="user-cabinet" href="user-cabinet.html">Личный кабинет</a>
+  				    </li>
+  			    </ul>
+  		  </section>
+      </div>
+    
+			<nav class="main-navigation container">
         <ul class="site-navigation">
           <li><a href="index.html">Главная</a></li>
           <li><a href="company.html">Компания</a></li>
