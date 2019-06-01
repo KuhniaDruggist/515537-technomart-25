@@ -464,7 +464,7 @@ a {
 }
 /*/////////////////////////////////Сетка/////////////////////////////////////*/
 
-/*body > * {
+body > * {
 	background-color: rgba(170, 25, 241, 0.5);
 }
 body > * > * {
@@ -478,7 +478,7 @@ body > * > * > * > * {
 }
 body > * > * > * > * > * {
 	background-color: rgba(1, 251, 221, 0.5);
-}*/
+}
 
 .user-navigation-wrapper .container {
   display: flex;
@@ -659,4 +659,18 @@ body > * > * > * > * > * {
 	margin: 0;
   margin-left: 45px;
   padding: 35px 0;
+}
+/*///////////////////////////////каталог///////////////////////////////////////////*/
+.headline {
+	width: 200px;
+	margin: 0;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.user-account {
+	width: 300px;
+  margin: 0;
+	margin-left: auto;
+	padding: 0;
 }
