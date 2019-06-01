@@ -426,6 +426,7 @@ a {
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
+	font-style: normal;
 	text-transform: uppercase;
 	color: #32425c;
 	background-color: #f2f6f8;
@@ -433,6 +434,8 @@ a {
 
 .filters fieldset {
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .filters legend {
@@ -673,4 +676,49 @@ body > * > * > * > * > * {
   margin: 0;
 	margin-left: auto;
 	padding: 0;
+}
+
+.breadcrumbs {
+	margin: 23px 0;
+	padding: 0;
+}
+
+.inner-page h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 30px;
+}
+
+.catalog-columns {
+	display: flex;
+}
+
+.filters {
+	width: 220px;
+	margin: 0;
+}
+
+.inner-page .catalog {
+  width: 700px;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+.catalog-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.catalog-item {
+	width: 220px;
+	margin: 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
 }
