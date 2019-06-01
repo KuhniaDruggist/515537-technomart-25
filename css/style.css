@@ -275,7 +275,8 @@ a {
 }
 
 .main-footer-logo img {
-	padding: 21px 42px;
+	margin: 0;
+	padding: 25px 42px;
 	background-color: #ee3643;
 	text-align: center;
 }
@@ -463,7 +464,7 @@ a {
 }
 /*/////////////////////////////////Сетка/////////////////////////////////////*/
 
-/*body > * {
+body > * {
 	background-color: rgba(170, 25, 241, 0.5);
 }
 body > * > * {
@@ -477,7 +478,7 @@ body > * > * > * > * {
 }
 body > * > * > * > * > * {
 	background-color: rgba(1, 251, 221, 0.5);
-}*/
+}
 
 .user-navigation-wrapper .container {
   display: flex;
@@ -583,36 +584,44 @@ body > * > * > * > * > * {
 	display: flex;
 }
 
+.footer-logo-address {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+.main-footer-logo {
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+} 
+
+.footer-logo-address p {
+	margin: 0;
+	margin-bottom: 50px;
+	padding: 0;
+}
+
 .navigation {
 	margin-left: auto;
-
+  
 	display: flex;
 	flex-direction: column;
 }
 
-.site-footer-navigation {
-	display: flex;
-
-	margin: 0;
-	margin-top: 15px;
-	margin-bottom: 40px;
-	padding: 0;
-}
-.site-footer-navigation li {
-	margin-left: 60px;
-}
-
+.site-footer-navigation,
 .materials-footer-navigation {
 	display: flex;
+  justify-content: flex-end;
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
 }
+.site-footer-navigation li,
 .materials-footer-navigation li {
 	margin-left: 60px;
 }
 
-.main-footer-logo {
-	width: 220px;
-	margin-bottom: 35px;
-}
 
 
 
