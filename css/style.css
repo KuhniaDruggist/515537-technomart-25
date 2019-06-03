@@ -37,6 +37,7 @@ a {
 }
 
 .user-navigation {
+	margin-bottom: 45px;
 	font-size: 17px;
 	line-height: 18px;
 	color: #ffffff;
@@ -44,15 +45,23 @@ a {
 	background-color: #293449;
 }
 
-.user-navigation input {
+.main-header-search {
 	border: none;
 	background-color: #293449;
 }
-.user-navigation p:hover,
-.main-header-search:hover,
-.user-navigation p:focus,
-.main-header-search:focus {
+.main-header-search::placeholder {
+	color: #ffffff;
+}
+
+.main-header-search:hover {
 	background-color: #212a3a;
+}
+.main-header-search:focus {
+  background-color: #ffffff;
+}
+
+:focus.main-header-search::placeholder {
+	color: #000000;
 }
 
 .user-navigation-list {
@@ -63,15 +72,11 @@ a {
 	color: #ffffff;
 }
 
-.user-navigation-wrapper .container {
+.user-navigation .container {
   display: flex;
 }
-
-.user-navigation-wrapper {
-	margin-bottom: 45px;
-}
-
-.user-navigation-wrapper .container p {
+ 
+.user-navigation .container form {
 	width: 190px;
 }
 
