@@ -38,7 +38,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header {
-	padding-bottom: 60px;
+	padding-bottom: 65px;
 
 	background-color: #f2f6f8;
 }
@@ -96,9 +96,8 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 }
 .search-form svg {
-	content: "";
-
 	position: absolute;
+	
   top: 13px;
   left: 17px;
 
@@ -153,8 +152,14 @@ input[type="radio"].visually-hidden {
 	display: block;
 	padding: 12px 0;
 	padding-right: 30px;
-	padding-left: 52px;
+	padding-left: 50px;
 	color: #ffffff;
+}
+
+.user-navigation-list .navigation-checkout {
+	padding: 12px 0;
+	padding-right: 22px;
+	padding-left: 20px;
 }
 
 .user-navigation-list li {
@@ -162,8 +167,6 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation-bookmarks svg {
-	content: "";
-
 	position: absolute;
 
 	top: 12px;
@@ -178,8 +181,6 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation-cart svg {
-	content: "";
-
 	position: absolute;
 
 	top: 12px;
@@ -193,10 +194,6 @@ input[type="radio"].visually-hidden {
 .navigation-bookmarks:focus svg,
 .navigation-cart:focus svg {
   opacity: 1;
-}
-
-.user-navigation-list .navigation-checkout {
-	padding: 12px 20px;
 }
 
 .navigation-bookmarks:hover,
@@ -234,7 +231,8 @@ input[type="radio"].visually-hidden {
 .info-login-wrapper h1 {
 	width: 200px;
 	margin: 0;
-	margin-left: 50px;
+	margin-top: 5px;
+	margin-left: 53px;
 	padding: 0;
 
 	font-size: 16px;
@@ -267,6 +265,11 @@ input[type="radio"].visually-hidden {
 }
 
 .header-phone {
+  position: relative;
+
+	margin: 0;
+	padding: 9px 0;
+
   border: 3px solid #ffffff;
 
 	font-size: 21px;
@@ -276,20 +279,33 @@ input[type="radio"].visually-hidden {
 
 }
 
-.header-adres {
+.header-phone::before {
+	content: "";
+
+	position: absolute;
+	left: 10px;
+
+	width: 19px;
+	height: 19px;
+
+	background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+}
+
+.header-address {
+	margin: 0;
+	margin-top: 5px;
 	font-size: 14px;
 	line-height: 24px;
 
 	color: #32425c;
 }
 
-.header-phone,
-.header-address {
-	margin: 0;
-	padding: 0;
-}
-
 .login {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
 	width: 300px;
   margin: 0;
 	margin-left: auto;
@@ -299,6 +315,10 @@ input[type="radio"].visually-hidden {
 }
 
 .login a {
+	display: block;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 12px 25px;
 	font-size: 21px;
 	line-height: 21px;
 
@@ -307,13 +327,42 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 }
 
-.login a:hover,
-.login a:focus {
-	color: #ee3643;
+.login li:nth-child(2n) {
+	margin-left: 10px;
 }
 
-.login a:active {
+.login .login-link {
+	position: relative;
+
+	padding-left: 50px;
+}
+
+.login-link svg {
+	position: absolute;
+	top: 14px;
+	left: 15px;
+}
+
+.login-link polygon,
+.login-link path {
+	fill: #c5c5c5;
+}
+
+.login a:hover,
+.login a:focus,
+.login a:hover polygon,
+.login a:focus polygon,
+.login a:hover path,
+.login a:focus path {
+	color: #ee3643;
+	fill: #32425C;
+}
+
+.login a:active,
+.login a:active polygon,
+.login a:active path {
 	color: rgba(0, 0, 0, 0.3);
+	fill: #c5c5c5;
 }
 
 .my-profile {
@@ -355,21 +404,25 @@ input[type="radio"].visually-hidden {
 }
 
 .main-navigation {
+	padding: 0;
 	background-color: #32425c;
-  box-shadow: inset 0px -5px 0px 0px rgb(41, 52, 73);
+  box-shadow: 0px 5px 0px 0px rgb(41, 52, 73);
 }
 
 .site-navigation {
-	margin: 0 50px;
+	margin: 0;
 	padding: 0;
 
 	display: flex;
+	flex-wrap: wrap;
   justify-content: space-between;
 	
 	list-style: none;
 }
 
 .site-navigation a {
+	display: block;
+	padding: 19px 31px;
 	font-size: 17px;
 	line-height: 17px;
 
@@ -706,13 +759,34 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-social {
-	width: 135px;
+	width: 132px;
 	margin: 0;
 	padding: 35px 0;
 }
 .footer-social ul {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-between;
 	margin: 0;
+
 	padding: 0;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  
+  background-color: #212a3a;
+}
+
+.social-button:hover,
+.social-button:focus,
+.social-button:active {
+	 background-color: #ee3643;
 }
 
 .feedback {
@@ -721,8 +795,6 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	margin-left: auto;
 	padding: 35px 0;
-	
-	
 }
 
 .developer {
