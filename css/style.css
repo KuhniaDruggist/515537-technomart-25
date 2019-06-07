@@ -83,11 +83,10 @@ input[type="radio"].visually-hidden {
 
 .user-navigation .container {
   display: flex;
-  justify-content: space-between;
 }
  
 .search-form {
-	width: 260px;
+  flex-grow: 1;
 }
 
 .search-form p {
@@ -113,7 +112,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-search {
-	width: 260px;
+	width: 100%;
 	padding-top: 12px;
 	padding-bottom: 11px;
 	padding-left: 50px;
@@ -138,12 +137,14 @@ input[type="radio"].visually-hidden {
 }
 
 .user-navigation-list {
-	width: 460px;
+	width: auto;
 	margin: 0;
 	padding: 0;
 
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-end;
+	/*flex-grow: 1;*/
 
 	list-style: none;
 }
