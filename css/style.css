@@ -596,6 +596,14 @@ input[type="radio"].visually-hidden {
 	width: 300px;
 }
 
+.contacts .contacts-map {
+	display: block;
+	margin: 0;
+	padding: 8px 0;
+	width: 300px;
+	height: 158px;
+}
+
 .about-us,
 .contacts {
 	margin: 0;
@@ -684,6 +692,11 @@ input[type="radio"].visually-hidden {
 .contacts .button {
 	box-sizing: border-box;
    width: 100%;
+   margin-top: 40px;
+}
+
+.about-us .button {
+	margin-top: 36px;
 }
 
 .button:hover,
