@@ -609,6 +609,28 @@ input[type="radio"].visually-hidden {
   right: 24px;
 }
 
+.popular-brend ul {
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	list-style: none;
+}
+
+.popular-brend-item a {
+  display: block;
+
+  width: 218px;
+  height: 143px;
+  margin-bottom: 20px;
+
+  border: 1px solid #eaeaea;
+
+  text-align: center;
+ }
 
 .filters {
 	width: 220px;
@@ -784,7 +806,7 @@ input[type="radio"].visually-hidden {
 
 	text-align: center;
 }
-.catalog-item:nth-child(4n) {
+.popular-product .catalog-item:nth-child(4n) {
 	margin-right: 0;
 }
 
@@ -1287,7 +1309,7 @@ input[type="radio"].visually-hidden {
 }
 
 /*--------------------------------------------------------------------------------*/
-.modal{         /*скрыл попап*/
+/*.modal {          
 	display:none;
 }
 
