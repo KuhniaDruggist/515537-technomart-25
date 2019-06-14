@@ -861,7 +861,7 @@ input[type="radio"].visually-hidden {
 .offer .flag-new {
   background: url("../img/new-flag.png") no-repeat 0 0;
 }
-/*-----*/
+
 .inner-catalog-item .actions {
 	position: absolute;
 	top: 0;
@@ -878,6 +878,7 @@ input[type="radio"].visually-hidden {
 
 .actions .button-buy,
 .actions .button-bookmarks {
+	position: relative;
   display: block;
   width: 129px;
   margin: 0 auto;
@@ -911,12 +912,12 @@ input[type="radio"].visually-hidden {
 	display: block;
 }
 
-/*.actions .button-buy::before {
+.actions .button-buy::before {
 	content: "";
 
 	position: absolute;
-  top: 53px;
-  left: 60px;
+  top: 8px;
+  left: 9px;
 
 	width: 15px;
 	height: 15px;
@@ -925,8 +926,8 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   background-position: 0, 0;
 
-  fill: red;
-}*/
+  opacity: 0.3;
+}
 
 /*-----*/
 
@@ -963,6 +964,9 @@ input[type="radio"].visually-hidden {
 	text-decoration: line-through;
 
 	color: #a9a9a9;
+}
+.old-price-invisible {
+	color: #ffffff;
 }
 
 .new-price {
@@ -1346,7 +1350,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .about-us h2,
-.contacts h2 {
+.contacts h2, {
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -1441,22 +1445,20 @@ background-color: rgba(0, 0, 0, 0.3);
 	background-color: #ba2732;
 }
 
-.button-buy {
-	font-family: Cuprum, Aria, sans-serif;
-	font-size: 14px;
-	line-height: 18px;
-	font-weight: 400;
-
-	background-color: #63a63e;
-}
-
 .button-buy:hover,
-.button-buy:focus {
+.button-buy:focus,
+.button-buy:hover::before,
+.button-buy:focus::before {
 	background-color: #5fbb2d;
+	border-color: #5fbb2d;
+	border-bottom-color: #367315;
+	opacity: 1;
 }
 
-.button-buy:active {
+.button-buy:active,
+.button-buy:active::before {
 	background-color: #518534;
+	opacity: 1;
 }
 
 .button-bookmarks {
