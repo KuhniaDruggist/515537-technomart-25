@@ -85,7 +85,7 @@
           <li><a href="company.html">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="news.html">Новости</a></li>
-          <li><a href="discount.html">Спецпредложения</a></li>
+          <li><a href="special-offers.html">Спецпредложения</a></li>
           <li><a href="delivery.html">Доставка</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
@@ -93,8 +93,8 @@
  	
 		</header>
 
-		<main class="container">
-			<section class="offers">
+		<main>
+			<section class="offers container">
 
 				<h2 class="visually-hidden">Мы предлагаем:</h2>
 
@@ -114,12 +114,12 @@
 					</li>
 				</ul>
 
-				<ul class="services">
-					<li class="services-item offer">
+				<ul class="discounts">
+					<li class="discounts-item offer">
 						<h3>Скидки 50%</h3>
 						<a class="button" href="sales.html">На 350 товаров</a>
 					</li>
-					<li class="services-item offer">
+					<li class="discounts-item offer">
 						<h3>Доставка</h3>
 						<a class="button" href="delivery.html">Бесплатно</a>
 					</li>
@@ -145,7 +145,7 @@
 				</ul>
       </section>
 			
-      <section class="popular-product">
+      <section class="popular-product container">
 
         <h2>Популярные товары:</h2>
 
@@ -224,7 +224,7 @@
 				</ul>
 			</section>
 
-			<section class="popular-brend">
+			<section class="popular-brend container">
 				<h2>Популярные производители:</h2>
 				<a class="button" href="popular-brend.html">Все производители</a>
 				<ul class="popular-brend-list" aria-label="Популярные производители">
@@ -254,38 +254,60 @@
 					</li>
 				</ul>
 			</section>
-
-			<section class="services-slider">
-
-				<!--<h2>Сервисы</h2>
-
-				<p> Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-
-				<ul class="services-button"> 
-					<!-- <li class="services-button-item">Доставка</li><-Кнопка--> 
-					<!-- <li class="services-button-item">Гарантия</li><!Кнопка--> 
-					<!-- <li class="services-button-item">Кредит</li><!-Кнопка--> 
-				<!-- </ul> -->
-
-				<!--<ul class="services-description">
-					<li class="services-delivery">
-					  <h3>Доставка</h3>
-					  <p class="description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-					</li>
-					<li class="services-guarantee">
-					  <h3>Гарантия</h3>
-					  <p class="description">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-					</li>
-					<li class="services-credin">
-					  <h3>Кредит</h3>
-					  <p class="description">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-					  <a class="button" href="#">Отправить заявку</a>
-				  </li>
-				</ul>	
-
-			</section> -->
       
-      <div class="about-us-contacts-wrapper">
+      <div class="services-background">
+				<section class="services-slider container">
+
+					<h2>Сервисы</h2>
+
+					<p> Хороший интернет-магазин отличается от плохого не только ценами!<br> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+
+					<div class="services-column">
+						<ul class="services-button"> 
+							<li>
+							  <button class="services-button-item services-1" type="button">Доставка</button>
+							</li>
+							<li>
+							  <button class="services-button-item services-2" type="button">Гарантия</button>
+							</li> 
+							<li>
+							  <button class="services-button-item services-3" type="button">Кредит</button>
+							</li>
+						</ul>
+
+						<ul class="services-description">
+							<li class="services-delivery"> 
+							  <h3>Доставка</h3>
+							  <p class="description">
+							  	Мы с удовольствием доставим ваш товар прямо<br>
+							  	к вашему подъезду совершенно бесплатно!<br>
+							    Ведь мы неплохо заработаем, поднимая его на ваш этаж!
+							  </p>
+							</li>
+							<li class="services-guarantee">
+							  <h3>Гарантия</h3>
+							  <p class="description">
+							  	Если купленный у нас товар поломается или заискрит,<br>
+							  	а также в случае пожара, спровоцированного его возгаранием,<br>
+							  	вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
+							  	Дом уж восстановите как-нибудь сами.
+							  </p>
+							</li>
+							<li class="services-credit">
+							  <h3>Кредит</h3>
+							  <p class="description">
+							  	Залезть в долговую яму стало проще!<br>
+							  	Кредитные консультанты придут вам на помощь.
+							  </p>
+							  <a class="button" href="#">Отправить заявку</a>
+						  </li>
+						</ul>
+					</div>	
+
+				</section>
+			</div>
+      
+      <div class="about-us-contacts-wrapper container">
 
 				<section class="about-us">
 					<h2>Компания «Техномарт»</h2>
@@ -304,7 +326,7 @@
 					<h2>Контакты</h2>
 					<p>Вы можете забрать товар сами,<br>
 					заехав в наш офис:</p>
-					<a class ="contacts-map" href="#"><!--ссылка на серис карт--><img src="img/mini-map.jpg" width="300" height="158" alt="Карта"></a>
+					<a class ="contacts-map" href="#"><img src="img/mini-map.jpg" width="300" height="158" alt="Карта"></a>
 					<a class="button" href="#">Заблудились? Напишите нам!</a>
 				</section>
 
@@ -332,7 +354,7 @@
 	        	<li><a href="materials.html">Материалы</a></li>
 	        	<li><a href="technique.html">Техника</a></li>
 	        	<li><a href="instruments.html">Инструмент</a></li>
-	        	<li><a href="discount.html">Спецпредложения</a></li>
+	        	<li><a href="special-offers.html">Спецпредложения</a></li>
 	        </ul>
 				</div>
 		  </section>
