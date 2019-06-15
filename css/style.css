@@ -610,8 +610,9 @@ input[type="radio"].visually-hidden {
   right: 24px;
 }
 
-.popular-brend ul {
+.popular-brend-list {
 	margin: 0;
+	margin-bottom: 65px;
 	padding: 0;
 
 	display: flex;
@@ -646,6 +647,122 @@ input[type="radio"].visually-hidden {
 .popular-brend-item a:active img {
   opacity: 0.3;
 }
+
+/*-----------------------------------------------------------------*/
+
+.services-background {
+	background-color: #f4f8f9;
+	margin-bottom: 80px;
+}
+
+.services-column {
+	display: flex;
+}
+
+.services-button {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 98px;
+	padding: 0;
+}
+
+.services-button li {
+	width: 240px;
+}
+
+.services-button-item {
+	margin: 0;
+	width: 240px;
+	padding: 15px 0;
+	padding-left: 23px;
+	text-align: left;
+	border: 0;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #32425c;
+}
+
+.services-description {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.services-description::before {
+	content: "";
+
+	position: absolute;
+  top: -43px;
+  left: -10px;
+
+	width: 10px;
+	height: 272px;
+
+	background-image: url("../img/shadow.png");
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+}
+
+.services-delivery,
+.services-guarantee,
+.services-credit {
+	width: 700px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color:  #f4f8f9;;
+}
+
+.services-delivery {
+	background-image: url(../img/delivery.png);
+	background-repeat: no-repeat;
+	background-position: right bottom ;
+	z-index: 3;
+}
+
+.services-guarantee {
+	background-image: url(../img/guarantee.png);
+	background-repeat: no-repeat;
+	background-position: right bottom ;
+	z-index: 2;
+}
+
+.services-credit {
+	background-image: url(../img/credit.png);
+	background-repeat: no-repeat;
+	background-position: right bottom ;
+	z-index: 1;
+}
+
+.services-credit .button {
+	margin-left: 80px;
+}
+
+.services-description h3 {
+	margin: 0;
+	margin-left: 80px;
+	margin-bottom: 30px;
+	padding: 0;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #32425c;
+}
+
+.services-description .description {
+	width: 380px;
+	margin-left: 80px;
+}
+
+/*-------------------------------------------------------------------*/
+
 
 .filters {
 	width: 220px;
@@ -991,7 +1108,7 @@ input[type="radio"].visually-hidden {
 }
 
 .product-list,
-.services {
+.discounts {
   margin: 0;
   padding: 0;
 
@@ -1002,7 +1119,7 @@ input[type="radio"].visually-hidden {
 	flex-wrap: wrap;
 	order: 1;
 }
-.services {
+.discounts {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -1057,10 +1174,10 @@ background-color: rgba(0, 0, 0, 0.3);
 	margin-right: 0;
 }
 
-.services-item {
+.discounts-item {
 	margin-right: 0;
 }
-.services-item:last-child {
+.discounts-item:last-child {
 	margin-bottom: 0;
 }
 
@@ -1086,14 +1203,14 @@ background-color: rgba(0, 0, 0, 0.3);
 	background-repeat: no-repeat;
 	background-position: 190px 31px;
 }
-.services li:first-child {
+.discounts li:first-child {
 	background-color: #8ed78f;
 
 	background-image: url(../img/icon-4.svg);
 	background-repeat: no-repeat;
 	background-position: 196px 25px;
 }
-.services li:last-child {
+.discounts li:last-child {
 	background-color: #ffc047;
 
 	background-image: url(../img/icon-5.svg);
@@ -1342,15 +1459,16 @@ background-color: rgba(0, 0, 0, 0.3);
 	height: 158px;
 }
 
-.about-us,
+/*.about-us,
 .contacts {
 	margin: 0;
 	margin-top: 80px;
 	padding: 0;
-}
+}*/
 
 .about-us h2,
-.contacts h2, {
+.contacts h2,
+.services-slider h2 {
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -1361,8 +1479,13 @@ background-color: rgba(0, 0, 0, 0.3);
 	text-transform: uppercase;
 }
 
+.services-slider h2 {
+	padding-top: 60px;
+}
+
 .about-us p,
-.contacts p {
+.contacts p,
+.services-slider p {
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -1371,6 +1494,10 @@ background-color: rgba(0, 0, 0, 0.3);
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
+}
+
+.services-slider p {
+	margin-bottom: 70px;
 }
 
 .delivery-company-list {
@@ -1403,9 +1530,7 @@ background-color: rgba(0, 0, 0, 0.3);
 	width: 25px;
 	height: 2px;
 
-	background-image: url("../img/defis.png");
-  background-repeat: no-repeat;
-  background-position: 0, 0;
+	background-color: #ee3643;
 }
 
 .button {
@@ -1522,17 +1647,15 @@ background-color: rgba(0, 0, 0, 0.3);
 
 .main-footer-logo {
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	padding: 0;
-} 
-
-.main-footer-logo img {
-	margin: 0;
-	padding: 25px 42px;
-
-	text-align: center;
+	width: 138px;
+	height: 23px;
+	padding: 20px 41px;
 
 	background-color: #ee3643;
+
+  box-shadow: 0px 5px 0px 0px rgb(181, 41, 51);
 }
 
 .footer-navigation {
