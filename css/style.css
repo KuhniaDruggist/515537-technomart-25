@@ -1589,6 +1589,11 @@ background-color: rgba(0, 0, 0, 0.3);
 	border-color: #ee3643;
 }
 
+.description-product-background {
+	background-color: #f2f6f8;
+	padding-top: 65px;
+	padding-bottom: 34px;
+}
 
 .about-us-contacts-wrapper {
 	display:flex;
@@ -1621,7 +1626,8 @@ background-color: rgba(0, 0, 0, 0.3);
 
 .about-us h2,
 .contacts h2,
-.services-slider h2 {
+.services-slider h2,
+.description-product h2{
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -1638,7 +1644,8 @@ background-color: rgba(0, 0, 0, 0.3);
 
 .about-us p,
 .contacts p,
-.services-slider p {
+.services-slider p,
+.description-product p {
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
