@@ -132,6 +132,9 @@ input[type="radio"].visually-hidden {
 .main-header-search:focus {
   background-color: #ffffff;
 }
+.main-header-search:focus ~ svg path {
+  fill: #ee3643;
+}
 
 :focus.main-header-search::placeholder {
 	color: #000000;
@@ -597,7 +600,9 @@ input[type="radio"].visually-hidden {
 	
 	background-color: #f2f6f8;
 }
-
+.inner-page .navigation-cart {
+	background-color: #ee3643;
+}
 .popular-product,
 .popular-brend {
 	position: relative;
