@@ -691,6 +691,12 @@ input[type="radio"].visually-hidden {
 	background-color: #32425c;
 }
 
+.services-1 {    /*Индикатор активности*/
+	color: #32425c;
+	background-color: #ffffff;
+	border: none;
+}
+
 .services-description {
 	position: relative;
 	list-style: none;
