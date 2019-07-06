@@ -1449,10 +1449,10 @@ input[type="radio"].visually-hidden {
 .range-price input[type=range]::-ms-fill-lower {
   background: #d7dcde;
 }
+
 .range-price input[type=range]::-ms-fill-upper {
   background: #00ca74;
 }
-
 
 .fields-input-price {
 	position: relative;

@@ -1,3 +1,4 @@
+// Товар добавлен в корзину//
 var cartLink = document.querySelector(".button-buy");
 
 var cartPopup = document.querySelector(".modal-cart");
@@ -22,6 +23,7 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
+//Форма обратной связи//
 var link = document.querySelector(".form-feedback");
 var popup = document.querySelector(".write-us");
 var close = popup.querySelector(".modal-close");
@@ -82,7 +84,7 @@ window.addEventListener("keydown", function (evt) {
 	}
 });
 
-
+//Карта//
 var mapLink = document.querySelector(".contacts-map");
   				
 
@@ -107,5 +109,3 @@ window.addEventListener("keydown", function (evt) {
 		}
 	}
 });
-
-
