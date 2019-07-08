@@ -395,7 +395,7 @@ input[type="radio"].visually-hidden {
 	fill: #c5c5c5;
 }
 
-.inner-page .profile {
+.profile {
 	position: relative;
 
 	display: inline-block;
@@ -409,7 +409,7 @@ input[type="radio"].visually-hidden {
 
 	background-color: #ffffff;
 }
-.inner-page .exit-profile {
+.exit-profile {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -422,7 +422,7 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
-.inner-page .profile svg {
+.profile svg {
 	position: absolute;
 	top: 12px;
 	left: 13px;
@@ -433,7 +433,7 @@ input[type="radio"].visually-hidden {
 	fill: #c5c5c5;
 }
 
-.inner-page .exit-profile svg {
+.exit-profile svg {
 	position: absolute;
 	top: 12px;
 	right: 10px;
@@ -442,25 +442,25 @@ input[type="radio"].visually-hidden {
 	height: 21px;
 }
 
-.inner-page .profile path,
-.inner-page .exit-profile path,
-.inner-page .exit-profile polygon {
+.profile path,
+.exit-profile path,
+.exit-profile polygon {
 	fill: #c5c5c5
 }
 
-.inner-page .profile:hover path,
-.inner-page .profile:focus path,
-.inner-page .exit-profile:hover path,
-.inner-page .exit-profile:hover polygon,
-.inner-page .exit-profile:focus path,
-.inner-page .exit-profile:focus polygon {
+.profile:hover path,
+.profile:focus path,
+.exit-profile:hover path,
+.exit-profile:hover polygon,
+.exit-profile:focus path,
+.exit-profile:focus polygon {
 	fill: #32425C
 }
 
-.inner-page .profile:active,
-.inner-page .profile:active path,
-.inner-page .exit-profile:active path,
-.inner-page .exit-profile:active polygon {
+.profile:active,
+.profile:active path,
+.exit-profile:active path,
+.exit-profile:active polygon {
 	color: rgba(0, 0, 0, 0.3);
 	fill: #c5c5c5;
 }
